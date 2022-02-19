@@ -3,8 +3,11 @@ package it.unicam.cs.ids_progetto_casotto;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import java.util.stream.Collectors;
 
+/**
+ * Classe che implementa un controller per le ordinazioni. Si possono effettuare varie operazioni tutte ineresnti alla
+ * classe comanda e consumazione.
+ */
 public class ControllerOrdinazione {
 
     private final List<Comanda> comande;
